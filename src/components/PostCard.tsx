@@ -12,7 +12,7 @@ function PostCard({ title, body, tags }: Post) {
           src="https://api.lorem.space/image/dashboard?w=370&h=240"
           alt={title}
         />
-        <h3 className="my-2 min-h-[55px]">{title}</h3>
+        <h3 className="my-2 sm:min-h-[55px]">{title}</h3>
         <p className="mb-2">{useCharLimit(body)}</p>
       </div>
       <a href="#" className="text-xl underline block">
